@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITW</title>
+    <link rel="icon" href="./newlogo-2.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img width="auto" height="80%" style="border-radius: 50%;" src="./logo.jpg" alt="" />
+        </div>
+        <div class="nav">
+          <button class="button-36" onclick="PrintData(0)" role="button">1-р жил</button>
+          <button class="button-36" onclick="PrintData(1)" role="button">2-р жил</button>
+          <button class="button-36" onclick="PrintData(2)" role="button">Бусад</button>
+        </div>
+        <div class="programm">
+          <button class="button-55" role="button" onclick="window.open('hutulbur.pdf','_blank');">ITW programm</button>
+        </div>
+      </div>
+      <div class="title">
+        <h1><span id="cat"></span>-р жилийн сурагчдын бүтээл</h1>
+      </div>
+      <div id="content"></div>
+      </div>
+    </div>
+    <script src="./mind.js"></script>
+  </body>
+</html>
